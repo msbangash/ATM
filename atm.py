@@ -4,7 +4,7 @@ TOKEN = "111"
 
 
 def withdraw():
-    card = input("Please enter your card number: ")
+    card = input("Please enter your card number, Hello: ")
     pin = input("Please enter your pin number: ")
     account_db = api.read_db(card, pin, IMEI, TOKEN)
     if account_db:
